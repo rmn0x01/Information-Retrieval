@@ -13,13 +13,11 @@ If the given input is more than 1 word, script will return the search result usi
 ## Usage
 ### Create Index
 ```
-
 python indexing.py
 ```
-<br/>
+
 ### Using Search
 ```
-
 python query.py
 ```
-<br/>
+
