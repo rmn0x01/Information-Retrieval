@@ -1,0 +1,10 @@
+Semester Learning Program Plans and Activities
+CAPITA SELECTA SOFTWARE ENGINEERING AND DATA DATA  SCIENCE
+RANCANGAN PROGRAM KEGIATAN PEMBELAJARAN SEMESTER
+The course of science data gives students the opportunity to apply various methods to obtain information from the data.
+Students will be given materials related to the introduction of science data, how science data can be used to solve business problems, as well as various stages done in the data science, such as data acquisition, data cleaning, explorative data analysis, modeling, and data visualization.
+The approach used in this course is case-based group work. The use of library and data science tools is introduced for each stage of the science data.
+Students are able to identify business problems that can be solved with a science data approach.
+Be able to explain the type of data, collect and prepare the data needed to formulate business problems.
+Be able to explain methods to explore potential business problem solving using science data.
+Able to develop science data model to solve business problems.
