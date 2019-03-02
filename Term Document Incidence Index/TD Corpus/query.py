@@ -1,8 +1,8 @@
 from bitarray import bitarray
 #ambil dokumen 
-docs = open('title2.txt').readlines()
+docs = open('title.txt').readlines()
 #ambil indeks
-indx = open('index2.csv').readlines()
+indx = open('index.csv').readlines()
 for i in range(len(indx)-1):
     print i #debug
     indx[i+1] = indx[i+1][2:].rstrip().split(',')
@@ -36,7 +36,6 @@ def process_query(keyword):
     return find_docs(result)
 
 def find_docs(search):
-    print search
     result = []
     for i in search:
         tmp = open('dataset/'+docs[i].rstrip(),'r').read()
