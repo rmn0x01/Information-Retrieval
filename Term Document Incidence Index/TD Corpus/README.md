@@ -21,4 +21,3 @@ python indexing.py
 ```
 python query.py
 '''
-
