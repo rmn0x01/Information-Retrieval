@@ -20,4 +20,5 @@ python indexing.py
 ### Using Search
 ```
 python query.py
-'''
+```
+
