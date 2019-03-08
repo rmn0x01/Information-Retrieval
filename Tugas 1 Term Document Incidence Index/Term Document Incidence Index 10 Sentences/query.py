@@ -1,12 +1,16 @@
 from bitarray import bitarray
+
 #ambil dokumen 
 docs = open('document.txt').readlines()
+
 #ambil indeks
 indx = open('index.csv').readlines()
 for i in range(len(indx)-1):
     indx[i+1] = indx[i+1][2:].rstrip().split(',')
+
 #wordlist
 words = indx[0].rstrip().split(',')[1:]
+
 #index value
 value = []
 for i in range(len(indx[1])-1):
