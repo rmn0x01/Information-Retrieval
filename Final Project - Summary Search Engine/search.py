@@ -9,7 +9,7 @@ print("==========SUMMARY SEARCH ENGINE==========")
 query_str = input("Search: ")
 print("\nResults: ")
 
-with ix.searcher(weighting=scoring.Frequency) as searcher:
+with ix.searcher(weighting=scoring.TF_IDF()) as searcher:
     query = QueryParser("synopsis",schema=ix.schema).parse(query_str)
     results = searcher.search(query,limit=1000)
     
@@ -33,7 +33,6 @@ with ix.searcher(weighting=scoring.Frequency) as searcher:
         else:
             print("Closing...")
 
-        
 
     def paginate(results,pageNum):
         print("\nPage",pageNum,"of",lastPage)
