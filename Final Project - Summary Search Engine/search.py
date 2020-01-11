@@ -44,9 +44,9 @@ with ix.searcher(weighting=scoring.TF_IDF()) as searcher:
             print("\n[N]ext page")
         if(pageNum>1):
             print("[P]revious page")
-        print("[G]o to page")
-        print("[O]pen result")
-        print("[Q]uit")
+        print("""[G]o to page
+        [O]pen result
+        [Q]uit""")
         action=input("Command: ")
         if(action=='N' or action=='n'):
             paginate(results,pageNum+1)
